@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CU Test"          verbose="1">
+    <test name="CU-TIOS">
+        <parameter name="environments" value="chrome"/>
+
+
+
+        <classes>
+            <!--           <class name="com.acorns.AFFeed"/>-->
+            <class name="com.bw.CUTestIOS"/>
+        </classes>
+
+    </test>
+</suite>
